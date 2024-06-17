@@ -1,0 +1,15 @@
+C:/Users/30226/Desktop/git/workpace/dsp_ref_files/dsp/fft8.v {1 {vlog -work work1 -stats=none {C:\Users\30226\Desktop\git\workpace\dsp_ref_files\dsp\fft8.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fft8
+
+Top level modules:
+	fft8
+
+} {} {}} C:/Users/30226/Desktop/git/workpace/dsp_ref_files/dsp/butterfly.v {1 {vlog -work work1 -stats=none {C:\Users\30226\Desktop\git\workpace\dsp_ref_files\dsp\butterfly.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module butterfly
+
+Top level modules:
+	butterfly
+
+} {} {}}

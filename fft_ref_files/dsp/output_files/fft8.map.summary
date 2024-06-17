@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Apr 25 22:37:36 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : fft8
+Top-level Entity Name : fft8
+Family : Cyclone 10 LP
+Total logic elements : 4,121
+    Total combinational functions : 2,285
+    Dedicated logic registers : 3,859
+Total registers : 3859
+Total pins : 772
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 120
+Total PLLs : 0

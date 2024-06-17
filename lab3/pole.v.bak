@@ -1,0 +1,10 @@
+module pole(rst,clk,Yin,Yout);
+
+input rst;
+input clk;
+input 
+
+
+
+
+endmodule 

@@ -1,0 +1,92 @@
+# vsim -gui -l msim_transcript work1.test 
+# Start time: 22:42:00 on Apr 25,2024
+# Loading work1.test
+# Loading work1.fft8
+# Loading work1.butterfly
+add wave -position insertpoint sim:/test/*
+run
+run -continue
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: $finish    : C:/Users/30226/Desktop/git/workpace/dsp_ref_files/dsp/simulation/modelsim/work1/test.v(137)
+#    Time: 1 us  Iteration: 0  Instance: /test
+# 1
+# Break in Module test at C:/Users/30226/Desktop/git/workpace/dsp_ref_files/dsp/simulation/modelsim/work1/test.v line 137
+vsim -gui -l msim_transcript work1.test
+# End time: 22:49:32 on Apr 25,2024, Elapsed time: 0:07:32
+# Errors: 0, Warnings: 0
+# vsim -gui -l msim_transcript work1.test 
+# Start time: 22:49:32 on Apr 25,2024
+# Loading work1.test
+# Loading work1.fft8
+# Loading work1.butterfly
+add wave -position insertpoint sim:/test/*
+run
+run
+run
+# Load canceled
+restart -f
+run
+run
+restart -f
+run
+run
+run
+restart -f
+run
+run
+run
+run
+vsim -gui -l msim_transcript work1.test -t ns
+# End time: 23:01:42 on Apr 25,2024, Elapsed time: 0:12:10
+# Errors: 1, Warnings: 0
+# vsim -gui -l msim_transcript work1.test -t ns 
+# Start time: 23:01:42 on Apr 25,2024
+# Loading work1.test
+# Loading work1.fft8
+# Loading work1.butterfly
+add wave -position insertpoint sim:/test/u_fft/*
+run
+run
+run
+# Compile of butterfly.v was successful.
+# Compile of fft8.v was successful.
+# Compile of test.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript -t ns work1.test
+# End time: 23:07:27 on Apr 25,2024, Elapsed time: 0:05:45
+# Errors: 0, Warnings: 0
+# vsim -gui -l msim_transcript -t ns work1.test 
+# Start time: 23:07:28 on Apr 25,2024
+# Loading work1.test
+# Loading work1.fft8
+# Loading work1.butterfly
+add wave -position insertpoint sim:/test/*
+run
+run
+run
+# Compile of butterfly.v was successful.
+# Compile of fft8.v was successful.
+# Compile of test.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript -t ns work1.test
+# End time: 23:09:54 on Apr 25,2024, Elapsed time: 0:02:26
+# Errors: 0, Warnings: 0
+# vsim -gui -l msim_transcript -t ns work1.test 
+# Start time: 23:09:54 on Apr 25,2024
+# Loading work1.test
+# Loading work1.fft8
+# Loading work1.butterfly
+add wave -position insertpoint sim:/test/u_fft/*
+run
+run
+run
+# End time: 23:12:45 on Apr 25,2024, Elapsed time: 0:02:51
+# Errors: 0, Warnings: 0

@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at pole.v(12): always construct contains both blocking and non-blocking assignments File: C:/Users/30226/Desktop/git/workpace/DSP_lab/lab3/pole.v Line: 12
+Warning (10268): Verilog HDL information at zero.v(17): always construct contains both blocking and non-blocking assignments File: C:/Users/30226/Desktop/git/workpace/DSP_lab/lab3/zero.v Line: 17

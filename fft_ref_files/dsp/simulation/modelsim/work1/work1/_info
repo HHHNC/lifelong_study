@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/30226/Desktop/git/workpace/dsp_ref_files/dsp/simulation/modelsim
+vbutterfly
+Z0 !s110 1714057782
+!i10b 1
+!s100 N3:zh24_5IFGJmz]5Pj:K3
+IkDhj7BDh]DWC^i;1<UIen0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/30226/Desktop/git/workpace/dsp_ref_files/dsp/simulation/modelsim/work1
+Z3 w1602606380
+8C:\Users\30226\Desktop\git\workpace\dsp_ref_files\dsp\butterfly.v
+FC:\Users\30226\Desktop\git\workpace\dsp_ref_files\dsp\butterfly.v
+L0 14
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1714057781.000000
+!s107 C:\Users\30226\Desktop\git\workpace\dsp_ref_files\dsp\butterfly.v|
+!s90 -reportprogress|300|-work|work1|-stats=none|C:\Users\30226\Desktop\git\workpace\dsp_ref_files\dsp\butterfly.v|
+!i113 1
+Z5 o-work work1
+Z6 tCvgOpt 0
+vfft8
+R0
+!i10b 1
+!s100 DSGcn9P2@CbAN?8DJPn@;3
+IeR`VY4STIz]TeAYTnMbB50
+R1
+R2
+R3
+8C:\Users\30226\Desktop\git\workpace\dsp_ref_files\dsp\fft8.v
+FC:\Users\30226\Desktop\git\workpace\dsp_ref_files\dsp\fft8.v
+L0 2
+R4
+r1
+!s85 0
+31
+Z7 !s108 1714057782.000000
+!s107 C:\Users\30226\Desktop\git\workpace\dsp_ref_files\dsp\fft8.v|
+!s90 -reportprogress|300|-work|work1|-stats=none|C:\Users\30226\Desktop\git\workpace\dsp_ref_files\dsp\fft8.v|
+!i113 1
+R5
+R6
+vtest
+R0
+!i10b 1
+!s100 Hg=V^]5Xn;0=g6TNSzO>m2
+IHO?mNdmU4dPQ@VTSCA^RJ3
+R1
+R2
+w1714057777
+8C:\Users\30226\Desktop\git\workpace\dsp_ref_files\dsp\simulation\modelsim\work1\test.v
+FC:\Users\30226\Desktop\git\workpace\dsp_ref_files\dsp\simulation\modelsim\work1\test.v
+L0 2
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:\Users\30226\Desktop\git\workpace\dsp_ref_files\dsp\simulation\modelsim\work1\test.v|
+!s90 -reportprogress|300|-work|work1|-stats=none|C:\Users\30226\Desktop\git\workpace\dsp_ref_files\dsp\simulation\modelsim\work1\test.v|
+!i113 1
+R5
+R6

@@ -1,0 +1,5 @@
+# Compile of butterfly.v was successful.
+# Compile of fft8.v was successful.
+# Compile of test.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work1.test

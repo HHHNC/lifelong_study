@@ -1,0 +1,68 @@
+`timescale 1ns/1ns
+
+module test();
+reg clk;
+reg [11:0] din;
+reg rst;
+wire [11:0] dout;
+iir iir_1(
+ .clk(clk),
+ .din(din),
+ .dout(dout),
+ .rst(rst)
+
+);
+parameter clk_period = 626;
+parameter clk_half_period = clk_period/2;
+parameter data_num = 2000;
+parameter time_sim = data_num*clk_period/2;
+
+initial begin
+ clk = 1;
+ rst = 1;
+#1000 rst = 0;
+#time_sim $finish;
+din = 12'd0;
+end
+always 
+	#clk_half_period clk=~clk;
+integer Pattern;
+reg[11:0] stimulus[1:data_num];
+initial begin
+
+$readmemb ("",stimulus);
+Pattern = 0;
+repeat(data_num)
+begin 
+
+Pattern = Pattern + 1;
+din = stimulus[Pattern];
+#clk_period;
+
+end
+
+end
+
+integer file_out;
+initial begin
+
+file_out = $fopen("");
+if(file_out)
+begin 
+$display ("error");
+$finish;
+end 
+
+end
+
+wire rst_write;
+wire signed [11:0] dout_s;
+assign dout_s = dout;
+assgin rst_write = clk&(!rst);
+always @(posedge rst_write)
+$fdisplay(file_out,"%d",dout_s);
+
+
+
+
+endmodule

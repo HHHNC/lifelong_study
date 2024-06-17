@@ -1,0 +1,76 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/30226/Desktop/git/workpace/DSP/simulation/simulation
+vbutterfly
+Z1 !s110 1714054363
+!i10b 1
+!s100 N3:zh24_5IFGJmz]5Pj:K3
+I?jjlFOL6;KAkijPUi3YHB0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1602606380
+8C:/Users/30226/Desktop/git/workpace/DSP/simulation/simulation/work/butterfly.v
+FC:/Users/30226/Desktop/git/workpace/DSP/simulation/simulation/work/butterfly.v
+L0 14
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1714054363.000000
+!s107 C:/Users/30226/Desktop/git/workpace/DSP/simulation/simulation/work/butterfly.v|
+!s90 -reportprogress|300|-work|work|C:/Users/30226/Desktop/git/workpace/DSP/simulation/simulation/work/butterfly.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vfft8
+R1
+!i10b 1
+!s100 DSGcn9P2@CbAN?8DJPn@;3
+IPS>c6c[Xl`MSQ9H4T3R8V3
+R2
+R0
+R3
+8C:/Users/30226/Desktop/git/workpace/DSP/simulation/simulation/work/fft8.v
+FC:/Users/30226/Desktop/git/workpace/DSP/simulation/simulation/work/fft8.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/30226/Desktop/git/workpace/DSP/simulation/simulation/work/fft8.v|
+!s90 -reportprogress|300|-work|work|C:/Users/30226/Desktop/git/workpace/DSP/simulation/simulation/work/fft8.v|
+!i113 1
+R6
+R7
+vtest
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1714054364
+!i10b 1
+!s100 l4@CYoPLe9@U:m2`cEgY10
+IaW3X9Rl=_D]LX_bMFSKz<0
+R2
+!s105 test_sv_unit
+S1
+R0
+R3
+8C:/Users/30226/Desktop/git/workpace/DSP/simulation/simulation/work/test.sv
+FC:/Users/30226/Desktop/git/workpace/DSP/simulation/simulation/work/test.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/30226/Desktop/git/workpace/DSP/simulation/simulation/work/test.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/30226/Desktop/git/workpace/DSP/simulation/simulation/work/test.sv|
+!i113 1
+R6
+R7
